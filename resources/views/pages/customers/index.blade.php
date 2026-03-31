@@ -7,6 +7,13 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-inner">
+                        <span style="float: right">
+                            <button class="btn btn-primary btn-round" data-bs-toggle="modal"
+                                data-bs-target="#registration">
+                                <em class="icon ni ni-plus-circle"></em>&ensp;
+                                Register New Customer
+                            </button>
+                        </span>
                         <table class="datatable-init table table-bordered table-hover">
                             <thead>
                                 <tr>
@@ -46,6 +53,24 @@
                             </tbody>
                         </table>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="registration">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <a href="#" class="close" data-bs-dismiss="modal">
+                    <em class="icon ni ni-cross-sm"></em>
+                </a>
+                <div class="modal-body">
+                    <h1 class="nk-block-title page-title">
+                        Register New Customer
+                    </h1>
+                    <hr class="mt-2 mb-2">
+                    {{-- --}}
+                    Forms "--"
                 </div>
             </div>
         </div>
