@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class CustomerController extends Controller
+{
+    public static function index()
+    {
+        return view('pages.customers.index');
+    }
+}
