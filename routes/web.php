@@ -17,4 +17,5 @@ Route::middleware([
     })->name('dashboard');
 
     Route::get('/customers', [CustomerController::class, 'index']);
+    Route::post('/customer/registration', [CustomerController::class, 'store'])->name('customer.save');
 });
